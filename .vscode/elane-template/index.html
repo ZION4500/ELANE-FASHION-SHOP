@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ÉLANE — Modern Womenswear</title>
+  <meta name="description" content="Limited-run women's fashion designed in Lagos. Shop statement tops, dresses and effortless sets." />
+  <link rel="icon" href="assets/favicon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <!-- ============================ ANNOUNCEMENT BAR ============================ -->
+    <div class="announcement">
+      <span>Complimentary Lagos delivery on orders over ₦80,000</span>
+      <i>•</i>
+      <span class="announcement-extra">Easy 7-day exchanges</span>
+    </div>
+
+    <!-- ================================ HEADER ================================= -->
+    <header class="header">
+      <button class="icon mobile-menu-trigger" aria-label="Open menu" data-open="menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+      </button>
+      <a class="logo" href="#top" aria-label="ÉLANE home">ÉLANE</a>
+      <nav aria-label="Main navigation">
+        <a href="#new">New in</a>
+        <a href="#shop">Shop</a>
+        <a href="#edit">The edit</a>
+        <a href="#story">Our story</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon" aria-label="Search products" data-open="search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+        <button class="bag" aria-label="Open bag" data-open="cart">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="bag-word">Bag</span>
+          <b id="bag-count">0</b>
+        </button>
+      </div>'''[]'
+    </header>
+
+    <!-- ================================= HERO ================================== -->
+    <section class="hero" id="top">
+      <img src="assets/elane-hero.webp" alt="ÉLANE campaign model in an ivory top and blush skirt" />
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="eyebrow pale">The August edit · 2026</p>
+        <h1>Soft power,<br />styled your way.</h1>
+        <p>Limited-run pieces that feel effortless, feminine and unmistakably you—designed for every plan on your calendar.</p>
+        <div>
+          <button class="button light" data-shop="All">Shop the edit
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </button>
+          <a class="underlink" href="#new">Explore new arrivals</a>
+        </div>
+      </div>
+      <div class="hero-notes">
+        <span>Designed in Lagos</span>
+        <span>Small-batch drops</span>
+        <span>Made to be repeated</span>
+      </div>
+    </section>
+
+    <!-- ============================= SHOP BY MOOD ============================== -->
+    <section class="moods section" id="new">
+      <div class="title-row">
+        <div>
+          <p class="eyebrow">Start somewhere lovely</p>
+          <h2>Shop by mood</h2>
+        </div>
+        <p>The day-to-night wardrobe: considered cuts, flattering textures and easy colour stories.</p>
+      </div>
+      <div class="mood-grid">
+        <button class="mood-card" data-shop="Dresses">
+          <img src="assets/product-chocolate-dress.webp" alt="Chocolate dress collection" />
+          <span><small>01</small>Dresses
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </span>
+        </button>
+        <button class="mood-card" data-shop="Tops">
+          <img src="assets/product-blush-ruched.webp" alt="Soft statement tops" />
+          <span><small>02</small>Statement tops
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </span>
+        </button>
+        <button class="mood-card" data-shop="Sets">
+          <img src="assets/product-sage-set.webp" alt="Relaxed matching sets" />
+          <span><small>03</small>Easy sets
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ============================== PRODUCT GRID ============================= -->
+    <section class="products section" id="shop">
+      <div class="product-title-row">
+        <div>
+          <p class="eyebrow">Most wanted</p>
+          <h2>The pieces everyone loves</h2>
+        </div>
+        <span id="product-count">6 pieces</span>
+      </div>
+      <div class="filters" role="group" aria-label="Filter products" id="filters">
+        <button class="active" data-category="All">All</button>
+        <button data-category="Tops">Tops</button>
+        <button data-category="Dresses">Dresses</button>
+        <button data-category="Sets">Sets</button>
+        <button data-category="Essentials">Essentials</button>
+      </div>
+      <!-- Product cards are rendered by script.js -->
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <!-- ============================== EDITORIAL =============================== -->
+    <section class="editorial" id="edit">
+      <div class="editorial-image">
+        <img src="assets/editorial-campaign.webp" alt="ÉLANE wardrobe editorial" loading="lazy" />
+        <span>É / 26</span>
+      </div>
+      <div class="editorial-copy">
+        <p class="eyebrow">The ÉLANE point of view</p>
+        <h2>Made for every version of you.</h2>
+        <p>Our pieces begin with one question: will you reach for it again? We design flattering silhouettes that can be softened, sharpened and styled around your real life.</p>
+        <div class="values">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>
+            <span><b>Thoughtful details</b>Unexpected lines, beautiful finishing.</span>
+          </div>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg>
+            <span><b>Made close to home</b>Designed and finished in Lagos.</span>
+          </div>
+        </div>
+        <button class="button dark" data-shop="All">Discover the collection
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- ================================ STORY ================================= -->
+    <section class="story" id="story">
+      <p class="eyebrow">Wear it your way</p>
+      <blockquote>“The best wardrobe doesn't change who you are. It makes more room for her.”</blockquote>
+      <span>ÉLANE / Lagos</span>
+    </section>
+
+    <!-- ============================== NEWSLETTER ============================== -->
+    <section class="newsletter">
+      <div>
+        <p class="eyebrow pale">Private list</p>
+        <h2>First look. Best picks.</h2>
+      </div>
+      <form id="newsletter-form">
+        <label class="sr-only" for="email">Email address</label>
+        <input id="email" type="email" placeholder="Your email address" required />
+        <button aria-label="Join newsletter">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </button>
+      </form>
+      <p>Early access to new drops, private offers and styling notes.</p>
+    </section>
+
+    <!-- ================================ FOOTER ================================ -->
+    <footer>
+      <div class="footer-brand">
+        <a class="logo" href="#top">ÉLANE</a>
+        <p>Modern femininity, made in Lagos.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <b>Shop</b>
+          <a href="#new">New arrivals</a>
+          <a href="#shop">Tops</a>
+          <a href="#shop">Dresses</a>
+          <a href="#shop">Sets</a>
+        </div>
+        <div>
+          <b>Help</b>
+          <a href="#delivery">Delivery</a>
+          <a href="#returns">Returns</a>
+          <a href="mailto:hello@elane.store">Contact us</a>
+          <a href="#size">Size guide</a>
+        </div>
+        <div>
+          <b>Follow</b>
+          <a href="#instagram">Instagram</a>
+          <a href="#tiktok">TikTok</a>
+          <a href="#pinterest">Pinterest</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 ÉLANE</span>
+        <span>NGN · Nigeria</span>
+        <span>Privacy · Terms</span>
+      </div>
+    </footer>
+
+    <!-- Overlays (menu / search / cart / product / checkout) are injected here -->
+    <div id="overlay-root"></div>
+    <!-- Toast notifications are injected here -->
+    <div id="toast-root"></div>
+
+
+
+    <!---- Seyi's Code ----->
+    <div class="modal">
+    <section class="delivery">
+      <p class="eyebrow">Delivery details</p>
+      <h1>Where should we send it?</h1>
+
+      <form>
+        <div class="row">
+          <div class="field">
+            <label>FIRST NAME</label>
+            <input type="text" placeholder="First name">
+          </div>
+          <div class="field">
+            <label>LAST NAME</label>
+            <input type="text" placeholder="Last name">
+          </div>
+        </div>
+
+        <div class="field">
+          <label>EMAIL ADDRESS</label>
+          <input type="email" placeholder="you@example.com">
+        </div>
+
+        <div class="field">
+          <label>PHONE NUMBER</label>
+          <input type="tel" placeholder="0800 000 0000">
+        </div>
+
+        <div class="field">
+          <label>DELIVERY ADDRESS</label>
+          <input type="text" placeholder="Street address">
+        </div>
+
+        <div class="row">
+          <div class="field">
+            <label>CITY</label>
+            <input type="text" value="Lagos">
+          </div>
+          <div class="field">
+            <label>STATE</label>
+            <select>
+              <option>Lagos</option>
+              <option>Abuja</option>
+            </select>
+          </div>
+        </div>
+
+        <button class="submit">REVIEW ORDER →</button>
+      </form>
+    </section>
+
+    <aside class="summary">
+      <p class="eyebrow">Order summary</p>
+      <div class="item">
+          <img src="images/item1.jpg" alt="product">
+        <div class="item-info">
+          <div class="name">Satin Slip Dress</div>
+          <div class="meta">Size: M · Color: Almond</div>
+        </div>
+        <div class="item-price">₦12800</div>
+      </div>
+
+      <div class="item">
+          <img src="images/item2.jpg" alt="product">
+        <div class="item-info">
+          <div class="name">Serein sculpted top</div>
+          <div class="meta">Size: 38 · Color: Tan</div>
+        </div>
+        <div class="item-price">₦7400</div>
+      </div>
+
+      <div class="totals">
+        <div class="subrow"><span>Items</span><span>₦20200</span></div>
+        <div class="subrow"><span>Shipping</span><span>₦35000</span></div>
+        <div class="total-line"><div class="label">Total</div><div class="value">₦55200</div></div>
+      </div>
+    </aside>
+  </div>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
